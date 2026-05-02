@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakt | Elżbieta Żukowska-Jóźwiak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-active="contact">
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <strong>Elżbieta Żukowska-Jóźwiak</strong>
+          <span>Ikony pisane na drewnie</span>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html" data-nav="home">Strona główna</a>
+          <a href="obrazy.html" data-nav="gallery">Obrazy</a>
+          <a href="kontakt.html" data-nav="contact">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="section-title fade-in">Kontakt</h1>
+          <p class="section-subtitle fade-in fade-delay-1">
+            Zapraszam do kontaktu w sprawie zamówień indywidualnych,
+            błogosławieństw ikon oraz współpracy z parafiami i wspólnotami.
+          </p>
+
+          <div class="contact-grid">
+            <div class="contact-card fade-in fade-delay-1">
+              <h3>Dane kontaktowe</h3>
+              <p>Warszawa, Polska</p>
+              <p>Telefon: +48 000 000 000</p>
+              <p>E-mail: kontakt@ikony-jozwiak.pl</p>
+              <p class="signature">Spotkania po wcześniejszym umówieniu.</p>
+            </div>
+            <div class="contact-card fade-in fade-delay-2">
+              <h3>Napisz wiadomość</h3>
+              <form>
+                <label>
+                  Imię i nazwisko
+                  <input type="text" name="name" placeholder="Twoje imię" />
+                </label>
+                <label>
+                  E-mail
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="adres@email.pl"
+                  />
+                </label>
+                <label>
+                  Wiadomość
+                  <textarea
+                    name="message"
+                    rows="4"
+                    placeholder="Opisz zamówienie"
+                  ></textarea>
+                </label>
+                <button type="submit">Wyślij</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2026 Elżbieta Żukowska-Jóźwiak. Ikony pisane na drewnie.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
