@@ -6,4 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
   if (link) {
     link.classList.add("active");
   }
+
+  const currentYear = document.querySelector("[data-current-year]");
+  if (currentYear) {
+    currentYear.textContent = new Date().getFullYear();
+  }
 });
